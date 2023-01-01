@@ -20,7 +20,6 @@ while a < 5:        # while循环
             print("错误，在{}-{}中".format(min, max))  # 答案在最小值和最大值中
         else:
             print("错误，在{}-{}中".format(min, max))
-        min = member
     elif n < member:
         max = member         # 将输入的数字设置为最大值
         # 输入的数字大于生成的数字
@@ -28,7 +27,6 @@ while a < 5:        # while循环
             print("错误，在{}-{}中".format(min, max))
         else:
             print("错误，在{}-{}中".format(min, max))
-        max = member
     else:
         print("Congratulations!")
         break
